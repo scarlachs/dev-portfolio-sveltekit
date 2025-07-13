@@ -1,5 +1,5 @@
 {
-	"name": "gvsh-records-sveltekit",
+	"name": "dev-portfolio-sveltekit",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
@@ -29,6 +29,7 @@
 		"eslint-config-prettier": "^10.1.1",
 		"eslint-plugin-svelte": "^2.46.1",
 		"globals": "^15.15.0",
+		"lucide-svelte": "^0.475.0",
 		"posthog-js": "^1.230.2",
 		"prettier": "^3.5.3",
 		"prettier-plugin-svelte": "^3.3.3",
@@ -47,8 +48,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/montserrat": "^5.2.6",
-		"@lucide/svelte": "^0.525.0",
+		"@fontsource-variable/montserrat": "^5.2.5",
+		"gsap": "^3.12.7",
 		"mode-watcher": "^0.4.1"
 	}
 }
