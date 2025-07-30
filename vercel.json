@@ -4,6 +4,11 @@
 	},
 	"redirects": [
 		{
+			"source": "/tshirt",
+			"destination": "https://date-pascal.vercel.app/?ref=tshirt",
+			"permanent": true
+		},
+		{
 			"source": "/linkedin",
 			"destination": "https://www.linkedin.com/in/pascalschaar/",
 			"permanent": true
