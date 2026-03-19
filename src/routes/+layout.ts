@@ -11,7 +11,8 @@ export const load = (async () => {
 			api_host: PUBLIC_POSTHOG_HOST,
 			person_profiles: "identified_only",
 			capture_pageview: false,
-			capture_pageleave: false
+			capture_pageleave: false,
+			cookieless_mode: "always"
 		});
 	}
 }) satisfies LayoutLoad;
